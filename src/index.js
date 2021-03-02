@@ -2,7 +2,7 @@ const crypto = require(__dirname + '/crypto.js')
 const fs = require('fs')
 
 let save = crypto.decodeSave('CCGameManager.dat')
-if (save.search('ugv_13') == '-1') {
+if (save.search('ugv_13') != '-1') {
     return console.log('[LOG] The Demon Freed flag is already set')
 }
 
