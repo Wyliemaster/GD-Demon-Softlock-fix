@@ -11,4 +11,4 @@ if (save.search('ugv_14') == '-1' && save.search('ugv_15') == '-1' && save.searc
 }
 
 injection = save.replace('<k>ugv_16</k><s>1</s>', '<k>ugv_16</k><s>1</s><k>ugv_13</k><s>1</s>')
-fs.writeFileSync('build/CCGameManager.dat', injection) //writes a file with the unzipped file
+fs.writeFileSync('build/CCGameManager.dat', injection)
