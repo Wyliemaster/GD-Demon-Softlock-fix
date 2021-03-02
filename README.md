@@ -18,4 +18,4 @@ open Geometry dash and then it *should* be fixed
 
 ### Credits
 
-Special thanks to [NeverKills](https://twitter.com/NeverKills_) for testing the script and giving me the idea to make this
+Special thanks to [NeverKills](https://twitter.com/NeverKills_) for testing and giving me the idea to make this
