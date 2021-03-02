@@ -6,7 +6,7 @@ if (save.search('ugv_13') != '-1') {
     return console.log('[LOG] The Demon Freed flag is already set')
 }
 
-if (save.search('ugv_14') == '-1' && save.search('ugv_15') == '-1' && save.search('ugv_16') == '-1') {
+if (save.search('ugv_14') == '-1' || save.search('ugv_15') == '-1' || save.search('ugv_16') == '-1') {
     return console.log('[LOG] You have not collected each demon key')
 }
 
