@@ -1,4 +1,4 @@
-# Demon Softlock Patch
+# Demon Softlock Fix
 
 In Geometry Dash there is a game breaking bug involving freeing the demon locked in the basement which makes it impossible to challenge the demon gauntlet. This program is intended to fix the softlock by correcting the flag for the event inside your save data
 
