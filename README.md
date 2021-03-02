@@ -1,7 +1,3 @@
-# IMPORTANT
-
-this is still being tested so there is no garuntee that it will work at the moment
-
 # Demon Softlock Patch
 
 In Geometry Dash there is a game breaking bug involving freeing the demon locked in the basement which makes it impossible to challenge the demon gauntlet. This program is intended to fix the softlock by correcting the flag for the event inside your save data
@@ -19,3 +15,7 @@ the only requirement you will need to get this running is [node.js](https://node
 - replace the old `CCGameManager.dat` with the fixed one (dont forget to backup in case of any mistakes) and delete `CCGameManager2.dat`
 
 open Geometry dash and then it *should* be fixed
+
+### Credits
+
+Special thanks to [NeverKills](https://twitter.com/NeverKills_) for testing the script and giving me the idea to make this
