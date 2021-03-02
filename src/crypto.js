@@ -12,7 +12,10 @@ function Xor(key, string) {
 
 var crypto = {
     decodeSave: function (save) {
-        if (save.slice(0, 20) == '<?xml version="1.0"?>') { console.log('your save is already decoded'); return save; }
+        //check if the save file is already decoded so i don't try to decode a decoded version
+        if (save.slice(0, 20) == '<?xml version="1.0"?>') { console.log('[LOG] your save is already decoded'); return save; }
+
+        //decoding
         data = fs.readFileSync(__dirname + '/../' + save, "utf-8")
         Xord = Xor(0xB, data)
         base64 = Xord.replace(/\+/g, '-')
